@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponude i Cjenik</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .logo-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .logo {
+            width: 70px;
+            height: auto;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 10px 0;
+            background-color: #444;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ff9800;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .gallery-item {
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item p {
+            margin-top: 15px;
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-header">
+            <img src="slike/rentacarlogo.jpg" alt="Rent a Car Logo" class="logo">
+            <h1>Ponude i Cjenik</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="nasa_vozila.html">Naša Vozila</a></li>
+                <li><a href="cjenik.html">Cjenik</a></li>
+                <li><a href="o_nama.html">O nama</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Naše Atraktivne Ponude</h2>
+        <div class="gallery">
+            
+            <div class="gallery-item">
+                <img src="slike/5%.jpg" alt="Popust 5%">
+                <p>Ostvarite 5% popusta za najam automobila na više od 5 dana.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="slike/10%.jpg" alt="Popust 10%">
+                <p>Iskoristite 10% popusta za najam automobila na više od 10 dana.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="slike/vozac.jpg" alt="Najam vozača">
+                <p>Unajmite profesionalnog vozača već od 50 € dnevno.</p>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="slike/vikend.jpg" alt="Vikend ponuda">
+                <p>Vikend ponuda: Najam vozila od petka do ponedjeljka uz 20% popusta.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="slike/sjedalica.jpg" alt="Dječje sjedalo">
+                <p>Dodajte dječje sjedalo za samo 5 € dnevno.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="slike/gps.jpg" alt="GPS uređaj">
+                <p>Osigurajte GPS uređaj uz najam za samo 7 € dnevno.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Rent a Car. Sva prava pridržana.</p>
+    </footer>
+</body>
+</html>
